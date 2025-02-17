@@ -1,0 +1,26 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure the HTML and body take up the full height of the viewport */
+  html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  /* Optional: Add a global font or other styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Fallback background color */
+    color: white; /* Default text color */
+  }
+  
+  /* Ensure the root element takes up the full height and width */
+  #root {
+    height: 100%;
+    width: 100%;
+  }
